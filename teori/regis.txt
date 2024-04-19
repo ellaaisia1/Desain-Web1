@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>NIK :*</td>
+            <td>Tempat/Tanggal Lahir :*</td>
+        </tr>
+        <tr>
+            <td><input type="text" name="nama" size="30"/></td>
+            <td><input type="text" name="nama" size="20"/> <input type="text" name="nama" size="20"/></td>
+        </tr>
+        <tr>
+            <td>Nama Lengkap :*</td>
+        </tr>
+        <tr>
+            <td><input type="text" name="nama" size="30"/></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin :*</td>
+            </tr>
+            <tr>
+            <td>
+            <input type="radio" name="hobby" value="Islam">Laki-Laki</option>
+            <input type="radio" name="hobby" value="Islam">Perempuan</option>
+            </td>
+        </tr>
+        <tr>
+            <td>Status :*</td>
+            </tr>
+            <tr>
+            <td>
+            <input type="radio" name="hobby" value="Islam">Menikah</option>
+            <input type="radio" name="hobby" value="Islam">Belum Menikah</option>
+            </td>
+        </tr>
+        <tr>
+            <td>Agama :*</td>
+            </tr>
+            <tr>
+            <td>
+            <input type="radio" name="hobby" value="Islam">Islam</option>
+            <input type="radio" name="hobby" value="Islam">Protestan</option>
+            <input type="radio" name="hobby" value="Islam">Katolik</option>
+            <input type="radio" name="hobby" value="Islam">Hindu</option>
+            <input type="radio" name="hobby" value="Islam">Budha</option>
+            </td>
+        </tr>
+        <tr>
+            <td>Alat Transportasi :*</td>
+            <td>Jenis Tinggal :*</td>
+        </tr>
+        <tr>
+            <td><select name="jk" size="1">
+                <option value="Islam">Sepeda Motor</option>
+                <option value="Islam">Jalan Kaki</option>
+                <option value="Islam">Mobil</option>
+                <option value="Islam">Angkong</option>
+                </select></td>
+
+                <td><select name="jk" size="1">
+                <option value="Islam">Kakek</option>
+                <option value="Islam">Orang Tua</option>
+                <option value="Islam">Paman</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td>Penerimaan KPS :*</td>
+            <td>Kewarganegaraan :*</td>
+        </tr>
+        <tr>
+            <td><select name="jk" size="1">
+                <option value="Islam">Ya</option>
+                <option value="Islam">Tidak</option>
+                </select></td>
+
+            <td><select name="jk" size="1">
+                <option value="Islam">WNI</option>
+                <option value="Islam">WNA</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td>Alamat Lengkap :*</td>
+        </tr>
+        <tr>
+            <td><input type="text" name="nama" size="50"/></td>
+        </tr>
+        <tr>
+            <td>RT/RW :*</td>
+            <td>Jalan :*</td>
+        </tr>
+        <tr>
+            <td><input type="text" name="nama" size="20"/> <input type="text" name="nama" size="20"/></td>
+            <td><input type="text" name="nama" size="30"/></td>
+        </tr>
+        <tr>
+            <td>Kode Pos :*</td>
+            <td>Kel/Des :*</td>
+        </tr>
+        <tr>
+            <td><input type="text" name="nama" size="30"/></td>
+            <td><input type="text" name="nama" size="30"/></td>
+        </tr>
+        <tr>
+            <td>Dusun :*</td>
+            <td>Kecamatan :*</td>
+        </tr>
+        <tr>
+            <td><input type="text" name="nama" size="30"/></td>
+            <td><input type="text" name="nama" size="30"/></td>
+        </tr>
+        <tr>
+            <td>NPWP :*</td>
+            <td>Telp/HP :*</td>
+        </tr>
+        <tr>
+            <td><input type="text" name="nama" size="30"/></td>
+            <td><input type="text" name="nama" size="30"/></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Surel :*</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="text" name="nama" size="30"/></td>
+        </tr>
+        <tr>
+        </tr>
+            <td>Asal Sekolah :*</td>
+        </tr>
+        <tr>
+            <td ><input type="text" name="nama" size="100"/></td>
+        </tr>
+        <tr>
+            <td>NISN :*</td>
+        </tr>
+        <tr>
+            <td ><input type="text" name="nama" size="100"/></td>
+        </tr>
+        <tr>
+            <td>Jurusan :*</td>
+        </tr>
+        <tr>
+            <td ><input type="text" name="nama" size="100"/></td>
+        </tr>
+        <tr>
+            <td>Alamat :*</td>
+        </tr>
+        <tr>
+            <td ><input type="text" name="nama" size="100"/></td>
+        </tr>
+        <tr>
+            <td>Program Studi :*</td>
+        </tr>
+        <tr>
+        <td>
+        <input type="radio" name="hobby" value="Islam">Teknik Informatika (S1)</option>
+        <input type="radio" name="hobby" value="Islam">Sistem Informasi (S1)</option>
+        <input type="radio" name="hobby" value="Islam">Manajemen Informatika (D3)</option>
+        <input type="radio" name="hobby" value="Islam">Komputerisasi Akuntansi (D3)</option>
+        </td>
+    </tr>
+    <tr>
+            <td>Waktu Belajar :*</td>
+        </tr>
+        <tr>
+        <td>
+        <input type="radio" name="hobby" value="Islam">Pagi</option>
+        <input type="radio" name="hobby" value="Islam">Siang</option>
+        </td>
+    </tr>
+    <tr>
+        <td>Pilihan Kelas :*</td>
+        </tr>
+        <tr>
+        <td>
+        <input type="radio" name="hobby" value="Islam">Reguler</option>
+        <input type="radio" name="hobby" value="Islam">Karyawan</option>
+        <input type="radio" name="hobby" value="Islam">KIP Kuliah</option>
+        </td>
+    </tr>
+    <tr>
+        <td>Pasword :*</td>
+    </tr>
+    <tr>
+       <td><input type="password" name="" id=""></td> 
+    </tr>
+    <tr>
+       <td> <input type="file" name="" id=""></td>
+    </tr>
+</table>
+</body>
+</html>
