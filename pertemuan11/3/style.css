@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+}
+
+form {
+    margin: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+#hasilGaji {
+    margin-top: 20px;
+    font-weight: bold;
+}

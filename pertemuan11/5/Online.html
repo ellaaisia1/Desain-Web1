@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing Online Pulsa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Billing Online Pulsa</h1>
+    <div id="input-pulsa">
+        <label for="detik">Masukkan Jumlah Detik:</label>
+        <input type="number" id="detik" name="detik" min="1">
+        <button onclick="hitungPulsa()">Hitung</button>
+    </div>
+    <div id="hasil-billing" style="display: none;">
+        <h2>Hasil Billing</h2>
+        <p>Lama Penggunaan:</p>
+        <ul>
+            <li id="jam">Jam: 0</li>
+            <li id="menit">Menit: 0</li>
+            <li id="detik-hasil">Detik: 0</li>
+        </ul>
+        <p>Total Bayar:</p>
+        <p id="total-bayar">Rp. 0</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

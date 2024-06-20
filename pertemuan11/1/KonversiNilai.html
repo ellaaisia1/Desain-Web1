@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Nilai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Konversi Nilai</h1>
+
+    <form id="formNilai" onsubmit="return konversiNilai()">
+        <label for="nilaiInput">Masukkan Nilai Anda:</label>
+        <input type="number" id="nilaiInput" name="nilai" required>
+        <button type="submit">Konversi</button>
+    </form>
+
+    <div id="hasilKonversi"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

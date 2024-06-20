@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perhitungan Gaji</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Perhitungan Gaji</h1>
+
+    <form id="formGaji" onsubmit="return hitungGaji()">
+        <label for="jamNormal">Jam Kerja Normal:</label>
+        <input type="number" id="jamNormal" name="jamNormal" required>
+        <label for="jamLembur">Jam Kerja Lembur:</label>
+        <input type="number" id="jamLembur" name="jamLembur" required>
+        <button type="submit">Hitung Gaji</button>
+    </form>
+
+    <div id="hasilGaji"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
